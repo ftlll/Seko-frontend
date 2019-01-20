@@ -1,0 +1,20 @@
+.full-screen{
+    height: 100%;
+    min-width: 100%;
+    overflow: hidden;
+}
+
+.carousel{
+    z-index: 1;
+}
+
+.grey-16p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.intro{
+    background-color: grey;
+    height: 260px;
+    width: 100%
+}
