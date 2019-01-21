@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import sampleBook from './../../img/neuerove/pdf/neuerove_vol5_A4_mihon.pdf';
-import documentBook from './../../img/neuerove/pdf/neuerove_vol5_A4_mihon_mt.pdf'
+import documentBook from './../../img/neuerove/pdf/neuerove_vol5_A4_mihon_mt.pdf';
+import Lighting from './../../img/neuerove/pdf/wallcoverings_and_illamination.pdf';
+import liveimg from './../../img/neuerove/pdf/neue_rove_vol5_image_jpg.zip';
+import allImg from './../../img/neuerove/pdf/neue_rove_vol5_kiji_JPG.zip';
 import './Neue_rove.css';
 
 const API = 'http://localhost:4000/';
@@ -230,6 +233,19 @@ class Neuerove extends Component {
                   </a>
                   <a href={documentBook} traget='_blank'>
                     <button type='button' className='btn btn-outline-secondary btn-block download button-content'>Information PDF</button>
+                  </a>
+                  <a href={Lighting} traget='_blank'>
+                    <button type='button' className='btn btn-outline-secondary btn-block download button-content'>Illumination</button>
+                  </a>
+                  <a href={liveimg} traget='_blank'>
+                    <button type='button' className='btn btn-outline-secondary btn-block download button-content'>Sample room</button>
+                  </a>
+                  <a href={allImg} traget='_blank'>
+                    <button type='button' className='btn btn-outline-secondary btn-block download button-content'>Image Source</button>
+                  </a>
+                  <h3 className='lineup'>Contact Us</h3>
+                  <a href='/request_sample' traget='_blank'>
+                    <button type='button' className='btn btn-outline-secondary btn-block download button-content'>Sample Request</button>
                   </a>
                 </div>
             </div>
